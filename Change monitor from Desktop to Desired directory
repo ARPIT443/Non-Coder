@@ -1,0 +1,10 @@
+###########################################################################################
+
+Open your home folder in a File Browser by clicking on Places > Home Folder
+In the Home Folder, open the .config folder. By default, .config is hidden, so you may have to show hidden folders (temporarily) by clicking on View > Show Hidden Files.
+Now open the user-dirs.dirs file using editor.
+Change the entry associated with XDG_DESKTOP_DIR to the folder you want to be shown as your desktop.
+Save and close user-dirs.dirs.
+Now reboot your system and you will get all the contents present in Folder on monitor.
+
+##########################################################################################
